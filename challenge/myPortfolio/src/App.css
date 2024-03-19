@@ -5,6 +5,10 @@
   text-align: center;
 }
 
+body{
+background-color: rgb(148, 241, 135);
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -39,4 +43,89 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.subTitle{
+  color:red
+}
+
+.navBar{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.about{
+  margin: 5px 30px;
+  background-color: antiquewhite;
+}
+
+.projects{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.project{
+  margin: 5px 10px;
+  background-color: antiquewhite;
+  width: 500px;
+  height: 200px;
+}
+.project1{
+  margin: 5px 10px;
+  background-color: antiquewhite;
+  width: 1100px;
+  height: 200px;
+background-image: url('./images/avatar.jpg');
+}
+.project2{
+  margin: 5px 10px;
+  background-color: antiquewhite;
+  width: 1100px;
+  height: 200px;
+background-image: url('./images/dayPlanner.png');
+}
+
+.link{
+  color: red;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.myContact{
+  color: purple;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#image{
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+}
+#about-me-photo{
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  margin: 10px;
+  object-fit: contain;
+}
+
+.portfolio_photobox{
+  width: 550px;
+  height: 350px;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  border: 1px dashed black;
+}
+
+#quizgif{
+  width: 1000px;
+  height: 400px;
+  object-fit: contain;
+margin: auto;
+border: 1px dashed black;
 }
