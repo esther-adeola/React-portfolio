@@ -1,4 +1,8 @@
 ﻿// import React from "react";
+import dayPlanner from "../images/dayPlanner.jpg"
+import horiseon from "../images/horiseon.jpg"
+import MyRun from "../images/MyRun.jpg"
+import weatherDashboard from "../images/weatherDashboard.jpg"
 
 export default function Portfolio() {
   return (
@@ -10,16 +14,16 @@ export default function Portfolio() {
         </a>
 
         <a href="https://esther-adeola.github.io/challenge7/">
-          <img className="portfolio_photobox" src="src/images/dayPlanner.png" alt="" />
-        </a>
+          <img className="portfolio_photobox" src={dayPlanner} alt="" />
+        </a
         <a href="https://esther-adeola.github.io/horiseon/">
-          <img className="portfolio_photobox" src="src/images/horiseon.png" alt="" />
+          <img className="portfolio_photobox" src={horiseon} alt="" />
         </a>
         <a href="https://anarab.github.io/MyRun">
-          <img className="portfolio_photobox" src="src/images/MyRun.png" alt="" />
+          <img className="portfolio_photobox" src={MyRun} alt="" />
         </a>
         <a href="https://esther-adeola.github.io/weather-dashboard/">
-          <img className="portfolio_photobox" src="src/images/weatherDashboard.png" alt="" />
+          <img className="portfolio_photobox" src={weatherDashboard} alt="" />
         </a>
       </div>
     </div>
