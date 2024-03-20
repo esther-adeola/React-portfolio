@@ -1,8 +1,8 @@
 ﻿// import React from "react";
-import dayPlanner from "../images/dayPlanner.jpg"
-import horiseon from "../images/horiseon.jpg"
-import MyRun from "../images/MyRun.jpg"
-import weatherDashboard from "../images/weatherDashboard.jpg"
+import dayPlanner from "../images/dayPlanner.png"
+import horiseon from "../images/horiseon.png"
+import MyRun from "../images/MyRun.png"
+import weatherDashboard from "../images/weatherDashboard.png"
 
 export default function Portfolio() {
   return (
