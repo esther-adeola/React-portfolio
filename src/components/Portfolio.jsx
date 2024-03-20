@@ -15,7 +15,7 @@ export default function Portfolio() {
 
         <a href="https://esther-adeola.github.io/challenge7/">
           <img className="portfolio_photobox" src={dayPlanner} alt="" />
-        </a
+        </a>
         <a href="https://esther-adeola.github.io/horiseon/">
           <img className="portfolio_photobox" src={horiseon} alt="" />
         </a>
